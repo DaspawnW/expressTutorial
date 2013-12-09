@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="index.css">
     <title></title>
 </head>
 <body>
-
+    <form id="address" action="/address" method="post">
+        Name: <input type="text" name="name" />
+        <br>
+        Straße + Nr.: <input type="text" name="strasse">
+        <br>
+        Ort: <input type="text" name="ort">
+        <br>
+        <input type="submit" value="Speichern" />
+    </form>
 </body>
 </html>

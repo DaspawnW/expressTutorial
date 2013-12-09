@@ -1,0 +1,20 @@
+#address {
+    width: 260px;
+    float: left;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+}
+
+#data {
+    width: 300px;
+    float: left;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+}
+
+#data thead td{
+    font-weight: bold;
+    width: 150px;
+}
